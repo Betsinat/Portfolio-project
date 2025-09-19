@@ -3,18 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Me</title>
 </head>
 <body>
-      <header>
+    <header>
         <h1>Betsinat Wendwesen</h1>
         <nav>
-           <a href="./index.html">Home</a>
-           <a href="./about.html">About</a>
-           <a href="./contact.html">Contact</a>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
         </nav>
     </header>
-    <footer>©2025 Betsinat Wendwezen</footer>
-    
+    <section>
+        <h2>Feel free to reach out! I’d love to connect, collaborate, or just have a great conversation!</h2>
+    </section>
+    <section>
+        <form action="">
+            <!-- Comment Input -->
+            <div>
+                <label for="comment">Comment:</label>
+                <input type="text" id="comment" name="comment" placeholder="Please write your comment" required>
+            </div>
+            <br>
+
+            <!-- Email Input -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required>
+            </div>
+            <br>
+
+            <!-- Number Input -->
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="15" max="50">
+            </div>
+            <br>
+
+            <!-- Radio Buttons -->
+            <div>
+                <p>How did you hear about me?</p>
+                <input type="radio" id="google" name="hear_about" value="google">
+                <label for="google">Google</label><br>
+
+                <input type="radio" id="friend" name="hear_about" value="friend">
+                <label for="friend">Friend</label><br>
+
+                <input type="radio" id="linkedin" name="hear_about" value="linkedin">
+                <label for="linkedin">LinkedIn</label>
+            </div>
+            <br>
+
+            <!-- Checkbox -->
+            <div>
+                <input type="checkbox" id="insta acc" name="insta acc" value="yes">
+                <label for="insta acc">Subscribe to my Instagram account</label>
+            </div>
+            <br>
+
+            <!-- Range Input -->
+            <div>
+                <label for="rating">Rate my portfolio (1-10):</label>
+                <input type="range" id="rating" name="rating" min="1" max="10">
+            </div>
+            <br>
+
+            <!-- Buttons -->
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset Form">
+            </div>
+        </form>
+    </section>
+    <footer>©2025 Betsinat Wendwesen</footer>
 </body>
 </html>

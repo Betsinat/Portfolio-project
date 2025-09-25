@@ -53,7 +53,7 @@ header{
     background-color: beige;
 
 }
-.Description p  {
+.Description p , .about p  {
 padding: 25px 25px;
 line-height: 1.6;
 font-family: "Open+Sans" , Courier, monospace; 
@@ -70,7 +70,7 @@ font-weight: 500;
 
 }
 .Description img:hover{
-    transform: scale(1.5);
+    transform: scale(0.75);
     box-shadow: 0 0 15px rgba(0, 200, 255, 0.6);
     transition: all 0.3s ease;
 }
@@ -79,7 +79,7 @@ font-weight: 500;
      margin: 10px 10px
 
 }
-.text-box h2{
+.text-box h2 , .about h2{
     font-weight: 800;
     font-size: 32px;
     font-family: "Poppins", Courier, monospace;
@@ -93,7 +93,7 @@ font-weight: 500;
     padding: 20px 25px;  
     margin: 10px 10px;
 }
-.sgp h3{
+.sgp h3 , .hobbies h3{
     font-size: 32px;
     margin-bottom: 15px;
     color: #3d5a40;               
@@ -131,4 +131,25 @@ footer a {
 }
 footer a:hover{
    color: #f4d03f;
+}
+/*About page*/
+.about {
+
+    background-color: beige;
+}
+.about h2, p{
+    padding: 15px;
+}
+.hobbies {
+    width : 50%;
+    background-color: #f3f8f2;
+    border-radius: 30px;
+     padding: 20px 70px;  
+     
+     font-family: "Roboto", Courier, monospace;
+     font-weight: 300;
+     font-size: 100%;
+     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+     margin: 10px 200px;
+    
 }
